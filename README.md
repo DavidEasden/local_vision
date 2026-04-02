@@ -65,22 +65,21 @@ export MCP_CONDA_ENV="mlx"
 python main.py
 ```
 
-2. **Configure in Claude Desktop**:
+2. **Configure in Opencode**:
 
-Add in your Claude Desktop profile:
+Add in your ```opencode.json```:
 
 ```json
 {
-  "mcpServers": {
-    "local-vision": {
-      "command": "python",
-      "args": ["/path/to/local_vision_mcp/main.py"],
-      "env": {
+ "mcp": {
+    "local_vision": {
+      "type": "local",
+      "command": ["python", "/Users/david/MyProjects/MLX/local_vision_mcp/main.py"],
+      "environment": {
         "LM_STUDIO_URL": "http://localhost:11434",
         "VISION_MODEL": "qwen3.5:2b-bf16"
       }
     }
-  }
 }
 ```
 
