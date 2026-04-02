@@ -12,13 +12,12 @@ A native visual analysis tool based on MCP (Model Context Protocol) that uses LM
 ## System Requirements
 
 - Python 3.8+
-- Conda environment ('mlx' environment recommended)
-- The LM Studio service is running
+- The LM Studio(or other local server) service is running
 - Supported image formats: PNG, JPG, JPEG, WEBP
 
 ## Installation configuration
 
-### 1. Environmental preparation
+### 1. Environmental preparation(Unnecessary)
 
 Make sure Conda is installed and create an 'mlx' environment:
 
