@@ -74,7 +74,7 @@ Add in your ```opencode.json```:
  "mcp": {
     "local_vision": {
       "type": "local",
-      "command": ["python", "/Users/david/MyProjects/MLX/local_vision_mcp/main.py"],
+      "command": ["python", "your path"],
       "environment": {
         "LM_STUDIO_URL": "http://localhost:11434",
         "VISION_MODEL": "qwen3.5:2b-bf16"
