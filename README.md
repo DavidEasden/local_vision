@@ -136,7 +136,7 @@ Please answer strictly based on the information visible in the picture, do not g
    - Confirm that the model is loaded and supports vision capabilities
    - Check your network connection and firewall settings
 
-3. **Unsupported File Formats**
+3. **Supported File Formats**
    - Make sure the image format is: PNG, JPG, JPEG, WEBP
    - Check that the file extension is correct
 
